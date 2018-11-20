@@ -1,0 +1,19 @@
+<!doctype html>
+<title>{% block title %}Welcome{% endblock %} | SpendTrack</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style1.css') }}">
+
+<div class="page">
+<h1>SpendTrack</h1>
+  <div class="navigation">
+  {% if g.user %}
+    <a href="{{ url_for('expense') }}">Add Expense</a> |
+    <a href="{{ url_for('main') }}">main</a> |
+    <a href="{{ url_for('contact') }}">contact</a> |
+    <a href="{{ url_for('logout') }}">sign out [{{ g.user.username }}]</a>
+  {% else %}
+    <a href="{{ url_for('main') }}">main</a> |
+    <a href="{{ url_for('register') }}">sign up</a> |
+    <a href="{{ url_for('login') }}">sign in</a>
+  {% endif %}
+  </div>
+  </div>

@@ -1,0 +1,137 @@
+body {
+    font-size: 23px;
+    }
+
+
+a {
+    color: #00f;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+}
+
+
+li {
+    float: left;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 50px 50px;
+    text-decoration: none;
+}
+
+.option {
+    position: relative;
+    left: 400px;
+}
+
+.abc {
+    position: absolute;
+    left: 70px;
+}
+
+
+.option1 {
+    width: 50px;
+    position: absolute;
+    right: 450px;
+}
+
+.option2 {
+    width: 50px;
+    position: absolute;
+    right: 250px;
+}
+
+.option3 {
+    width: 50px;
+    position: absolute;
+    right: 150px;
+}
+
+.option4 {
+    width: 50px;
+    position: absolute;
+    right: 350px;
+  }
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: #111;
+}
+
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
+
+
+div.cq {
+
+    display: inline-block;
+    float: left;
+    width: 350px;
+    background-color: white;
+    color: black;
+    margin-left: 200px;
+    padding-left: 20px;
+    bottom: 0;
+    left: 0;
+}
+
+.panel panel-default{
+  margin: 30px 30px 60px 30px;
+}
